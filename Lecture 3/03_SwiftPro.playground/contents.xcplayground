@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='1. Перечисления'/>
+        <page name='2. Классы'/>
+        <page name='3. ООП'/>
+        <page name='4. Свойства'/>
+        <page name='5. Методы'/>
+        <page name='6. Протоколы и расширения'/>
+        <page name='7. Структуры'/>
+        <page name='8. ARC'/>
+        <page name='9. Уровни доступа'/>
+        <page name='Misc'/>
+    </pages>
+</playground>
