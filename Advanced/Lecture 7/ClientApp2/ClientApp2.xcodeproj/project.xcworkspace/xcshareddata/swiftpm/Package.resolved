@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "anotheronepackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OlegGibadulin/AnotherOnePackage",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a8911a9a4e6577483af301de4bd7c6ee5b7fe989"
+      }
+    }
+  ],
+  "version" : 2
+}
