@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BF06311329D344E500D93F54 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BF06311629D344E500D93F54 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				BF06311729D344FA00D93F54 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BF6E019029D34024002CF2A6 /* AnotherOneLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E018F29D34024002CF2A6 /* AnotherOneLibrary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF6E018A29D34024002CF2A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF6E018C29D34024002CF2A6 /* libAnotherOneLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnotherOneLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6E018F29D34024002CF2A6 /* AnotherOneLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherOneLibrary.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF6E018929D34024002CF2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF6E018329D34024002CF2A6 = {
+			isa = PBXGroup;
+			children = (
+				BF6E018E29D34024002CF2A6 /* AnotherOneLibrary */,
+				BF6E018D29D34024002CF2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF6E018D29D34024002CF2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E018C29D34024002CF2A6 /* libAnotherOneLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6E018E29D34024002CF2A6 /* AnotherOneLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E018F29D34024002CF2A6 /* AnotherOneLibrary.swift */,
+			);
+			path = AnotherOneLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF6E018B29D34024002CF2A6 /* AnotherOneLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6E019329D34024002CF2A6 /* Build configuration list for PBXNativeTarget "AnotherOneLibrary" */;
+			buildPhases = (
+				BF6E018829D34024002CF2A6 /* Sources */,
+				BF6E018929D34024002CF2A6 /* Frameworks */,
+				BF6E018A29D34024002CF2A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnotherOneLibrary;
+			productName = AnotherOneLibrary;
+			productReference = BF6E018C29D34024002CF2A6 /* libAnotherOneLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF6E018429D34024002CF2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BF06311329D344E500D93F54 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BF6E018B29D34024002CF2A6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BF6E018729D34024002CF2A6 /* Build configuration list for PBXProject "AnotherOneLibrary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF6E018329D34024002CF2A6;
+			productRefGroup = BF6E018D29D34024002CF2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF6E018B29D34024002CF2A6 /* AnotherOneLibrary */,
+				BF06311329D344E500D93F54 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF06311729D344FA00D93F54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 1: Declare variables\n# Вписываем имя библиотеки:\nLIB_NAME=\"AnotherOneLibrary\"\n\nRESULT_DIR=\"libAnotherOneLibrary\"\nBUILD_DIR_SIMULATOR=\"Debug-iphonesimulator\"\nBUILD_DIR_DEVICE=\"Debug-iphoneos\"\nLIB_BINARY_NAME=\"lib$LIB_NAME.a\"\nLIB_BINARY_NAME_SIMULATOR=\"lib$LIB_NAME-simulator.a\"\nLIB_BINARY_NAME_DEVICE=\"lib$LIB_NAME-device.a\"\nSWIFTMODULE_DIR=$LIB_NAME\".swiftmodule\"\n\n# 2: Билд\n# Билдим для симулятора\nxcodebuild -target $LIB_NAME -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# Билдим для устройства\nxcodebuild -target $LIB_NAME ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# 3: Операции с бинарными файлами\n# Переходим в билд директорию\ncd $BUILD_DIR\n\n# Удаляем результат предыдущей сборки\nrm -rf $BUILD_DIR/$RESULT_DIR 2> /dev/null\n\n# Создаем новую директорию для библиотеки\nmkdir $RESULT_DIR\n\n# Копируем двоичный файл симулятора\n# в директорию библиотеки и переименовываем его\ncp ./$BUILD_DIR_SIMULATOR/$LIB_BINARY_NAME ./$RESULT_DIR/$LIB_BINARY_NAME_SIMULATOR\n\n# Копируем двоичный файл устройства \n# в директорию библиотеки и переименовываем его\ncp ./$BUILD_DIR_DEVICE/$LIB_BINARY_NAME ./$RESULT_DIR/$LIB_BINARY_NAME_DEVICE\n\n# Создаем нашу universal библиотеку(второе название \"fat\")\nlipo -create ./$RESULT_DIR/$LIB_BINARY_NAME_SIMULATOR ./$RESULT_DIR/$LIB_BINARY_NAME_DEVICE -output ./$RESULT_DIR/$LIB_BINARY_NAME\n\n# Удаляем двоичные файлы симулятора и устройства:\nrm ./$RESULT_DIR/$LIB_BINARY_NAME_SIMULATOR\n\nrm ./$RESULT_DIR/$LIB_BINARY_NAME_DEVICE\n\n# 4: Создаем .swiftmodule\n#\n# Создаем директорию\nmkdir $RESULT_DIR/$SWIFTMODULE_DIR\n\n# Копируем 'swiftmodule' симулятора в созданную директорию\ncp -r $BUILD_DIR_SIMULATOR/$SWIFTMODULE_DIR $RESULT_DIR\n\n# Копируем 'swiftmodule' устройства в созданную директорию\ncp -r $BUILD_DIR_DEVICE/$SWIFTMODULE_DIR/* $RESULT_DIR/$SWIFTMODULE_DIR\n\n# Удаляем билд директорию\nrm -rf $PROJECT_DIR/build\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF6E018829D34024002CF2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6E019029D34024002CF2A6 /* AnotherOneLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF06311429D344E500D93F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N293BSPRVW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF06311529D344E500D93F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N293BSPRVW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF6E019129D34024002CF2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF6E019229D34024002CF2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF6E019429D34024002CF2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N293BSPRVW;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF6E019529D34024002CF2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N293BSPRVW;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF06311629D344E500D93F54 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF06311429D344E500D93F54 /* Debug */,
+				BF06311529D344E500D93F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6E018729D34024002CF2A6 /* Build configuration list for PBXProject "AnotherOneLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6E019129D34024002CF2A6 /* Debug */,
+				BF6E019229D34024002CF2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6E019329D34024002CF2A6 /* Build configuration list for PBXNativeTarget "AnotherOneLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6E019429D34024002CF2A6 /* Debug */,
+				BF6E019529D34024002CF2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF6E018429D34024002CF2A6 /* Project object */;
+}
